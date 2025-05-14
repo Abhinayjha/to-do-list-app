@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.bodyBox {
+    background-color: white;
+    border-radius: 10px;
+    height: 450px;
+    width: 30%;
+    margin: 50px auto;
+    padding: 10px 30px !important;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.bodyBox::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+    margin-left: -10px;
+}
+
+.bodyBox::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.bodyBox::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #b4b4b4;
+}
+
+.bodySubtitle {
+    font-family: "poppins", sans-serif;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.bodyInsidetitle {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 7px;
+}
+
+.addButton {
+    display: block;
+    width: 85% !important;
+    padding: 10px 20px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+    color: #8f9197 !important;
+    background-color: #e5e7eb !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 25px !important;
+}
+
+.addButton:focus {
+    border-color: #e5e7eb !important;
+    box-shadow: unset !important;
+}
+
+.taskCheckBoxList {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 0px !important;
+    margin-top: 30px !important;
+}
+
+.taskCheckBoxList1 {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 0px !important;
+    margin-top: 10px !important;
+}
+
+.searchBox {
+    display: flex;
+}
+
+.plusIconButton {
+    background-color: #f76207;
+    border-radius: 25px;
+    padding-left: 26px;
+    padding-right: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: white;
+    margin-left: -10%;
+}
+
+.taskListName {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.taskListName1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    color: grey;
+}
+
+.taskListName2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+}
+
+.taskListTitle {
+    display: flex;
+}
+
+.taskListTitle1 {
+    display: flex;
+}
+
+.taskListTitle2 {
+    display: flex;
+}
+
+.taskCheckBox {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 15px;
+    -webkit-appearance: none;
+    border: 1px solid #000;
+    background-color: white;
+    cursor: pointer;
+}
+
+.taskListTitle input[type="checkbox"]:checked {
+    background-color: #4cc77b;
+    border-color: #4cc77b;
+}
+
+.taskListTitle input[type="checkbox"]:checked::after {
+    content: "✔";
+    position: relative;
+    color: white;
+    transform: translate(-50%, -50%);
+    left: 4px;
+}
+
+.taskListTitle1 input[type="checkbox"]:checked {
+    background-color: grey;
+    border-color: grey;
+}
+
+.taskListTitle1 input[type="checkbox"]:checked::after {
+    content: "✔";
+    position: relative;
+    color: white;
+    transform: translate(-50%, -50%);
+    left: 4px;
+}
+
+.taskListTitle2 input[type="checkbox"]:checked {
+    background-color: grey;
+    border-color: grey;
+}
+
+.taskListTitle2 input[type="checkbox"]:checked::after {
+    content: "✔";
+    position: relative;
+    color: white;
+    transform: translate(-50%, -50%);
+    left: 4px;
+}
+
+.completeTitle {
+    display: inline-block;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.taskList1 {
+    background-color: #a3a3a30a;
+    border-radius: 10px;
+    padding: 7px 7px;
+}
+
+.habitCompleted {
+    background-color: #a3a3a326;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+
+.boxTime {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.boxDate {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.bodyTopTime {
+    background-color: black;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border-radius: 7px;
+    width: 200px;
+    max-width: 100%;
+}
+
+
+/* Media query code start here  */
+
+@media(max-width: 480px) {
+    .bodyBox {
+        background-color: white;
+        border-radius: 10px;
+        height: 450px;
+        width: 95%;
+        margin: 50px auto;
+        padding: 10px 30px !important;
+        overflow-y: scroll;
+        max-height: 450px;
+    }
+
+    .plusIconButton {
+        background-color: #f76207;
+        border-radius: 25px;
+        padding-left: 26px;
+        padding-right: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-family: "Roboto";
+        font-weight: 500;
+        color: white;
+        margin-left: -15% !important;
+    }
+
+    .bodyInsidetitle {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 10px !important;
+        align-items: center;
+        padding-bottom: 20px;
+        gap: 7px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .bodyBox {
+        background-color: white;
+        border-radius: 10px;
+        height: 450px;
+        width: 50%;
+        margin: 50px auto;
+        padding: 10px 30px !important;
+        overflow-y: scroll;
+        max-height: 450px;
+    }
+
+    .plusIconButton {
+        background-color: #f76207;
+        border-radius: 25px;
+        padding-left: 26px;
+        padding-right: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-family: "Roboto";
+        font-weight: 500;
+        color: white;
+        margin-left: -15% !important;
+    }
+
+    .bodyInsidetitle {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 10px !important;
+        align-items: center;
+        padding-bottom: 20px;
+        gap: 7px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .bodyBox {
+        background-color: white;
+        border-radius: 10px;
+        height: 500px;
+        width: 35% !important;
+        margin: 50px auto;
+        padding: 10px 30px !important;
+        overflow-y: scroll;
+        max-height: 500px;
+    }
+
+    .bodyInsidetitle {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 10px;
+        align-items: center;
+        padding-bottom: 20px;
+        gap: 7px;
+    }
+
+    .plusIconButton {
+        background-color: #f76207;
+        border-radius: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-family: "Roboto";
+        font-weight: 500;
+        color: white;
+        margin-left: -17%;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+
+    .bodyBox {
+        background-color: white;
+        border-radius: 10px;
+        height: 450px;
+        width: 85% !important;
+        margin: 50px auto;
+        padding: 10px 30px !important;
+        overflow-y: scroll;
+        max-height: 400px;
+    }
+
+    .bodyInsidetitle {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 10px !important;
+        align-items: center;
+        padding-bottom: 20px;
+        gap: 7px;
+    }
+
+    .plusIconButton {
+        background-color: #f76207;
+        border-radius: 25px;
+        padding-left: 26px;
+        padding-right: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-family: "Roboto";
+        font-weight: 500;
+        color: white;
+        margin-left: -15% !important;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .bodyBox {
+        background-color: white;
+        border-radius: 10px;
+        height: 400px;
+        width: 97% !important;
+        margin: 50px auto;
+        padding: 10px 15px !important;
+        overflow-y: scroll;
+        max-height: 450px;
+    }
+
+}
+
+/* Media query code end here  */
